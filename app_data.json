@@ -1,0 +1,37 @@
+{
+  "accounts": {
+    "demo": "demo123",
+    "kiran Aziz": "12345678"
+  },
+  "users": {
+    "kiran Aziz": {
+      "history": [
+        {
+          "time": "2026-08-24 11:21:11",
+          "message": "Congratulations! You've WON a $1000 Walmart gift card. Click here to claim now!!...",
+          "result": "SPAM",
+          "score": 0.56
+        },
+        {
+          "time": "2026-08-24 11:21:16",
+          "message": "URGENT: Your account has been suspended. Verify your details immediately at this...",
+          "result": "SPAM",
+          "score": 0.25
+        },
+        {
+          "time": "2026-08-24 11:29:43",
+          "message": "Hey, are we still meeting for lunch tomorrow at 1pm?",
+          "result": "HAM",
+          "score": -1.15
+        }
+      ],
+      "notifications": [
+        "✅ Message checked at 2026-08-24 11:29:43 — looks safe",
+        "🚫 Spam message detected at 2026-08-24 11:21:16",
+        "🚫 Spam message detected at 2026-08-24 11:21:11"
+      ],
+      "theme": "light",
+      "language": "en"
+    }
+  }
+}
