@@ -1,10 +1,3 @@
-"""
-Email/SMS Spam Classification - Model Training Script
-Task 1: ML Internship - Arch Technologies
-
-Pipeline: Data Cleaning -> Text Preprocessing -> TF-IDF Feature Extraction
-          -> Train multiple models -> Compare -> Save best model
-"""
 
 import re
 import string
